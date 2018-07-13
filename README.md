@@ -1,4 +1,6 @@
-# CdkOverlay
+# Angular Material CDK overlay and using Dynamic component loader
+
+Example on how to use the CDK overlay and dynamically load components into the component portlet.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 

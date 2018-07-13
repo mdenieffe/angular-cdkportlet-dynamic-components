@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~@angular/cdk/overlay-prebuilt.css';
+@import '~@angular/cdk/a11y-prebuilt.css';
+
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+html, body {
+  height: 100%;
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
+
+.cdk-overlay-backdrop.cdk-overlay-backdrop-showing {
+  &.bs-backdrop {
+    background: #000;
+    opacity: 0.65 !important;
+  }
+}
